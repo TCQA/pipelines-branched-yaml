@@ -1,6 +1,6 @@
 jobs:
   Job1:
-    name: Job in a main branch
+    name: Job in a secondary branch
     steps:
       - type: script
-        script-content: echo 'Hello from the main branch!'
+        script-content: echo 'Hello from the secondary branch!'
